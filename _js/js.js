@@ -11,11 +11,11 @@ if ((nome.length >=1) &&
     (conta.search(".")!=-1) &&      
     (conta.indexOf(".") >=1)&& 
     (conta.lastIndexOf(".") < conta.length - 1)) {
-document.getElementById("mensagem").innerHTML="Email válido";
+document.getElementById("mensagem").innerHTML="Email valido";
 alert("Email valido");
 }
 else{
-document.getElementById("mensagem").innerHTML="<font color='red'>Email inválido </font>";
+document.getElementById("mensagem").innerHTML="<font color='red'>Email invalido </font>";
 alert("Email invalido");
 }
 }
